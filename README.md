@@ -7,9 +7,9 @@
   </div>
   <div>&nbsp;</div>
 
-在线网站: <https://iamdirector.cn>
+在线网站: <https://www.iamdirector.cn>
 
-Website: <https://iamdirector.cn>
+Website: <https://www.iamdirector.cn>
 
 [//]: # (English | [简体中文]&#40;README_zh-CN.md&#41;)
 
@@ -20,7 +20,7 @@ Website: <https://iamdirector.cn>
 这是一个免费试用AI视频创作平台，集成了基于GPT的视频剧本生成和视频生成功能。
 我们的理想是让每个人都能成为导演，以最快的方式将日常中的任何创意转化为高质量的视频，
 无论是电影、营销视频、还是自媒体视频。
-完整平台请在[这里](https://iamdirector.cn)试用。
+完整平台请在[这里](https://www.iamdirector.cn)试用。
 
 由于生成式AI发展迅速，Sora等模型也迅速步入人们关注。
 而目前基于生成式模型的前端平台普遍较少，页面功能较为简陋，难以满足用户需求。
@@ -52,7 +52,7 @@ The front-end of an AI driven platform for automatic movie/video generation
 
 ## 展示 - Demo
 
-完整平台请在[这里](https://iamdirector.cn)试用。
+完整平台请在[这里](https://www.iamdirector.cn)试用。
 
 Please try the full platform [here](https://iamdirector.cn).
 
