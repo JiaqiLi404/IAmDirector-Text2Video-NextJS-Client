@@ -38,11 +38,9 @@ The front-end of an AI driven platform for automatic movie/video generation
     - [x] OpenAI
     - [x] 百度千帆大模型
     - [x] 智谱ChatGLM
-- [ ] 剧本转视频 - Text2Video
+- [x] 剧本转视频 - Text2Video
     - [x] [fliki](https://fliki.ai/?via=iamdirector)(API is temporarily unavailable)
     - [ ] [StableDiffusionAPI](https://stablediffusionapi.com/)(expensive and uncertain performance)
-- [ ] 视频剪辑 - Video Trimming
-    - [ ] 将[fabric-video-editor](https://github.com/AmitDigga/fabric-video-editor)融合进平台当中
 
 ## ！文生视频接口暂时无法对接！ - Text2Video API is temporarily unavailable
 
@@ -82,6 +80,20 @@ Please try the full platform [here](https://iamdirector.cn).
 <div align="center">
   <img src="readme/exportation.png" width="1440" alt=""/>
 </div>
+
+## 使用 - Usage
+
+1. 安装依赖 - Install Dependencies
+
+```bash
+npm install --force
+```
+
+2. 启动项目 - Start Project
+
+```bash
+npm run dev
+```
 
 ## 版权 - License
 
