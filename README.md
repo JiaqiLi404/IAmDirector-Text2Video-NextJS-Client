@@ -38,9 +38,11 @@ The front-end of an AI driven platform for automatic movie/video generation
     - [x] OpenAI
     - [x] 百度千帆大模型
     - [x] 智谱ChatGLM
-- [x] 剧本转视频 - Text2Video
+- [ ] 剧本转视频 - Text2Video
     - [x] [fliki](https://fliki.ai/?via=iamdirector)(API is temporarily unavailable)
     - [ ] [StableDiffusionAPI](https://stablediffusionapi.com/)(expensive and uncertain performance)
+- [ ] 视频剪辑 - Video Trimming
+    - [ ] 将[fabric-video-editor](https://github.com/AmitDigga/fabric-video-editor)融合进平台当中
 
 ## ！文生视频接口暂时无法对接！ - Text2Video API is temporarily unavailable
 
