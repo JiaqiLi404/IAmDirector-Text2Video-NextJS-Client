@@ -1,0 +1,129 @@
+.header-console-btn {
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  align-items: center;
+  display: flex;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 50rem;
+  height: 38px !important;
+  border-radius: 20px;
+
+}
+
+.header-console-btn span {
+  width: 6.5rem;
+}
+
+.direction-block {
+  background-color: rgb(249 250 251);
+  border: 1px solid #e1e4e8;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  flex-direction: column;
+  padding: 2.4rem 3.6rem;
+}
+
+.director-start-option-div {
+  margin-top: 1.8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.director-start-script-prompt-div {
+  margin: 1rem 0;
+}
+
+.director-start-prefix-script-collapse {
+  .ant-collapse-content-box {
+    background-color: rgb(243 244 246);
+  }
+}
+
+.director-start-prefix-script-card {
+  height: 14rem;
+  overflow: hidden;
+  display: -webkit-box; //作为弹性伸缩盒子模型显示。
+  -webkit-box-orient: vertical; //设置伸缩盒子的子元素排列方式--从上到下垂直排列
+  -webkit-line-clamp: 6; //显示的行
+  cursor: pointer;
+
+  .ant-card-body {
+    height: 10rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+  }
+
+}
+
+.director-description-text {
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 14px;
+}
+
+.director-step-btn {
+  margin: 0 auto;
+  width: 10rem;
+}
+
+.director-script-footage-div {
+  margin-top: 1.8rem;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 15rem;
+
+  border: 1px solid #e1e4e8;
+  border-radius: 0.62rem;
+  padding: 0 1rem;
+}
+
+.director-script-footage-div-left {
+  width: 100%;
+  margin-right: 1rem;
+}
+
+.director-script-footage-div-right {
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 10rem;
+}
+
+.director-script-footage-div-btn {
+  margin: 0 auto;
+  width: 5rem;
+}
+.balance-panel{
+  max-width: 50rem;
+  align-content: center;
+  align-items: center;
+  margin:0 auto;
+  border-radius: 5rem;
+  .ant-card{
+    background: rgb(243 244 246);
+    //border: 1px solid #e1e4e8;
+  }
+}
+
+.balance-title {
+  height: 5rem;
+  padding: 0.5rem 1rem !important;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.padding-image{
+  width: 10rem;
+  height: 10rem;
+  //padding: 1rem;
+  //  border-image: url('../../public/img/user.jpeg') 30 stretch;
+}
+
+

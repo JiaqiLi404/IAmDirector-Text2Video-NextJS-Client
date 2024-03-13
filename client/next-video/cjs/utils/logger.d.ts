@@ -1,0 +1,21 @@
+type logType = 'log' | 'error';
+export type Logger = (...messages: any[]) => void;
+export declare function base(type: logType, ...messages: string[]): void;
+export declare function info(...messages: any[]): void;
+export declare function success(...messages: any[]): void;
+export declare function add(...messages: any[]): void;
+export declare function warning(...messages: any[]): void;
+export declare function error(...messages: any[]): void;
+export declare function space(...messages: any[]): void;
+export declare function label(detail: string): string;
+declare const _default: {
+    base: typeof base;
+    info: typeof info;
+    success: typeof success;
+    add: typeof add;
+    warning: typeof warning;
+    error: typeof error;
+    space: typeof space;
+    label: typeof label;
+};
+export default _default;
