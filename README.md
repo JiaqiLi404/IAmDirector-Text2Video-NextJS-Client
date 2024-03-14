@@ -95,6 +95,15 @@ npm install --force
 npm run dev
 ```
 
+3. Skip the login
+
+If you don't own a chinese phone number, you can skip the login by modifying the nextjs middleware file,
+by commenting out the redirect code in
+
+```
+/client/src/middleware.ts
+```
+
 ## 版权 - License
 
 #### 本项目的前端代码基于[MIT协议](LICENSE)开源，后端代码暂不开源。
